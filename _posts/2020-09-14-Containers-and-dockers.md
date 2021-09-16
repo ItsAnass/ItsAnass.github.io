@@ -36,7 +36,6 @@ if the (WORKDIR) Command is not written in the Dockerfile, it will automatically
 * (runs-on keyword) Configures the job to run on an Ubuntu Linux runner.
 * (steps keyword) Groups together all the steps that will be done and each item under this section is a separate action .
 * (run keyword) Tells the job to execute a command on the runner.
-* (with: dotnet-version: 5.0.x) To specify which version of dotnet are we using.
 * Line 10 ( docker meta ) I used a GitHub Action to extract metadata from Git reference and GitHub events. This action is particularly useful if used with Docker Build Push action to tag and label Docker images.
 * Line 19 ( setup-qemu )  The action can be useful if you want to add emulation support with QEMU to be able to build against more platforms.
 * Line 22 ( setup-buildx ) the action will create and boot a builder using by default the docker-container builder driver.
