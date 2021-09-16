@@ -5,4 +5,4 @@ layout: page
 ---
 
 ## About Me
- Welcome :) 
+ :) 
