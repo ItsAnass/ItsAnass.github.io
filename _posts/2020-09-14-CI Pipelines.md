@@ -9,6 +9,7 @@ Moreover, the technical goal of CI is to establish a consistent and automated wa
 
 ## How implemented a CI pipeline in GitHub actions on an existing project? And what steps have you gone through? And descrip your GitHub action workflow YAML file.?
 ![dotnet.CIWorkflow](https://github.com/ItsAnass/s.github.io-/blob/main/assets/Images/CIWorkflow.png?raw=true)
+
 The main thing is to specify the path where the execution has to start.
 In my YAML file I used:
 * ( on[push]) That means the jobs run every time someone pushes a change to the repository. Its possible also to set up the workflow to only run on certain branches and paths.
