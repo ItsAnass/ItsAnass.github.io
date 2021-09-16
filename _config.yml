@@ -1,6 +1,6 @@
 title: "Anas Blog"
 author: "Anas"
-description: "Enjoy :) <b style=\"color: #f45;\">&lt;3</b>"
+description: "Enjoy :)"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
