@@ -47,14 +47,6 @@ if the (WORKDIR) Command is not written in the Dockerfile, it will automatically
 
 ## References
 
-[Docker tag, extended description](https://docs.docker.com/engine/reference/commandline/tag/)
+[Working with the Container registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry)
 
-[About the Github token](https://docs.github.com/en/actions/reference/authentication-in-a-workflow)
 
-[Github Docker build-push](https://github.com/docker/buildx/blob/master/docs/reference/buildx_build.md#push)
-
-[Github, build-push-action](https://github.com/docker/build-push-action)
-
-[Github, login-action](https://github.com/docker/login-action#github-container-registry)
-
-[What's wrong with the docker: latest tag?](https://vsupalov.com/docker-latest-tag/)
