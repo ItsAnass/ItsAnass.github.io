@@ -3,7 +3,7 @@ title: "Containers and dockers (GitHub)."
 layout: post
 ---
 
-## What has been installed locally / Github?
+What has been installed locally / Github?
 
 First of all I didn't need to install any thing since I have already installed Docker Desktop and GitHub Desktop.
 I started by forking the project from the given link and started working on it by adding the required files.
