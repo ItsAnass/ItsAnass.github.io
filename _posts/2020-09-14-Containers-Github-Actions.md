@@ -1,48 +1,44 @@
 ---
-title: "Containers and Github Actions."
+title: "Containers and dockers (GitHub)."
 layout: post
 ---
 
-Docker containers, building them, creating a CI pipeline with Github actions making sure that the app would work on pull/push requests, this article will be a continuation of the previous one, here I will go more in depth on how Github actions can work with containers and will try to explain step by step.
+## What has been installed locally / Github?
+
+First of all I didn't need to install any thing since I have already installed Docker Desktop and GitHub Desktop.
+I started by forking the project from the given link and started working on it by adding the required files.
 
 
-## Docker File
 
-First we need to make a docker file, in order to make the image, we can think of images like the base, we need the image in order to make a container, the container is run once the application starts it uses the image and also stores other data and the container stores everything. In the following picture I will explain how the image works:
+## How did you get the application to run in a container and describe your docker file?
 
-![Dockerfile](/assets/Images/DockerFile.png)
+I added a folder which contains docker file and by using the windows terminal I located the file path and then I typed (docker build .).
+The windows terminal will go through the docker file and it wil create a container according to the information in the docker file.
 
-* FROM here we are getting the Microsoft .Net image and the AS is just giving the image a name, in this case build-env. 
-* WORKDIR  working directory and we give it a name /App, telling the container where to work in.
-* COPY  we are copying the .csproj into the ./ and this means the container inside the /App.
-* RUN here is a dotnet restore, its a command getting everything it needs for the project.
-* COPY we are copying everything in the project to the image in this case inside the /App.
-* Line 12 here is another FROM, here we are getting another microsoft image but for ASP.Net
-* Line 13, still same working directory
-* Line 14, we are taking everything from before so to the out folder in App.
-* ENTRYPOINT is what should be done once we run the container, so in CMD we would write: dotnet SimpleWebHalloWorld.dll
+![DockerFile](https://github.com/ItsAnass/s.github.io-/blob/main/assets/Images/DockerfileScreen.png?raw=true)
+  
 
-## Github Actions with docker image.
+* Line 6 shows (FROM) It creates a layer from the aspnet:3.1  Docker image.
+* Line 7 (WORKDIR ) This command is used to define the working directory of a Docker container at any given time and
+if the (WORKDIR) Command is not written in the Dockerfile, it will automatically be created by the Docker compiler.
+* Line 8-9 (EXPOSE) The instruction exposes a particular port with a specified protocol inside a Docker Container.
+* Line 13 (COPY)  It let you copy files from a specific location into a Docker image.
+* Line 14 (RUN ) Lets you execute commands inside of your Docker image.
+* Line 25 (ENTRYPOINT) Allows you to configure a container that will run as an executable.
 
-Going back to last blog post, we want to make our project try to build an image and check if it fails or succeeds in making it. In my example each time there is a push or pull request to the main branch it will run the Github actions based off our dotnet.yml file in our /.github/workflows folder. In this exercise it was still the same:
+## Describe your github pipeline?
 
-* You have the name of the action
-* Then the on which is when it gets triggered; on push and on pull requests.
-* jobs, here we have two jobs, first one is the set up of the .net stuff (which is what I covered in the [previous post](https://alejandratala.github.io/Git-Hub-Actions/)).
-    * Second job would be the Docker image build, here we are still using ubutu, and we give it the steps.
-    * What's new is that we are adding a registry, along with username and password, github thankfully sorts the token for us (line 35) so we dont have to do any github secrets or anything its just automated.
-    * Line 38, we are doing the action of what its trying to do.
-    * Line 40, we are automatically push the build result to the registry, in my example case it would be the githut packages.
-    * Line 41, we give it the registry (ghcr.io) if we dont give it one, it will automatically try to use the docker one, then we have the user name (alejandratala) this one is a must, its the host name, and it has to be according to DNS rules if its incorrect it won't work, along with the this applies also to the name of the project. I also didn't add a latest at the end of this line because it always tries to do it automatically.
+![CI](https://github.com/ItsAnass/s.github.io-/blob/main/assets/Images/DockerfileScreen.png?raw=true)
 
-![GitHub actions with docker job](/assets/Images/DockerimageJob.png)
+I have explained earlier about the basics of the github pipeline file.
+I will start with the new jobs that I added to the file.
+In line 10 ( docker meta ) I used a GitHub Action to extract metadata from Git reference and GitHub events. This action is particularly useful if used with Docker Build Push action to tag and label Docker images.
+In line 19 ( setup-qemu )  The action can be useful if you want to add emulation support with QEMU to be able to build against more platforms.
+Line 22 ( setup-buildx ) the action will create and boot a builder using by default the docker-container builder driver.
+Line 25 ( login ) Action will take care to log in against a Docker registry.
+Line 32 and 38 (build/push) We are building the image and then we are pushing it to the repository with the help of the dockerfile that we already have.
 
-## Github Secret
 
-I wanted to write a more prominent space for this, because in my workflow I am using github username and password, well... github already sorts the token out automatically. It just knows it has to sort out a token, so it does it on the background, there was no need to go in and make a secret and add a value in my project.
-
-## OUTRO
-I hope this has proven helpful to someone out there, I know it can be confusing, specially if you want to understand what each thing does while using docker images and containers, along with actions!
 
 ## References
 
