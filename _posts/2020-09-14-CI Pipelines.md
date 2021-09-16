@@ -8,7 +8,7 @@ Moreover, the technical goal of CI is to establish a consistent and automated wa
 
 
 ## How implemented a CI pipeline in GitHub actions on an existing project? And what steps have you gone through? And descrip your GitHub action workflow YAML file.?
-![dotnet.CIWorkflow](/assets/Images/dotnet-CIWorkflow.png)
+![dotnet.CIWorkflow](https://github.com/ItsAnass/s.github.io-/blob/main/assets/Images/CIWorkflow.png?raw=true)
 The main thing is to specify the path where the execution has to start.
 In my case I used:( run: dotnet build Source/SpacePark.sln) And here I specified where the code should execute from.
 In my YAML file I used:
