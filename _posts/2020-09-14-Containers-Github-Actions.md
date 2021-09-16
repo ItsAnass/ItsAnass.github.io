@@ -28,7 +28,7 @@ if the (WORKDIR) Command is not written in the Dockerfile, it will automatically
 
 ## Describe your github pipeline?
 
-![CI](https://github.com/ItsAnass/s.github.io-/blob/main/assets/Images/DockerfileScreen.png?raw=true)
+![CI](https://github.com/ItsAnass/s.github.io-/blob/main/assets/Images/CI.png?raw=true)
 
 I have explained earlier about the basics of the github pipeline file.
 I will start with the new jobs that I added to the file.
