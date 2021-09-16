@@ -1,56 +1,26 @@
 ---
-title: "All about the Cloud"
+title: "What is a Cloud?"
 layout: post
 ---
 
-As a normal person who doesn't know much about electronics, one thinks of the cloud, and just thinks it's a convenient service to have access to your "stuff" anywhere you want. So in theory you could take a picture on your camera and use `Google Drive` and be able to access it on your laptop/computer/mobile or log-in to your account at the school's computer and have access to it. But in all honestly is that all? in this blog I will be discussing the different things I found out while I did some reading, also what different services there are out there and how much they would cost to have lets say a simple website with a database.
+In short, cloud / cloud services mean that you save your documents, images and other data on an online server instead of on your computer.
+The services offer different functions but have in common that you can access your content not only from your computer but from any device (computer, tablet, phone). The cloud also means that you can let colleagues have access to what you work with. You decide to what extent others should be able to edit or just read what you are doing. The opportunity to have more people working with the same document opens up for creative collaborations.
 
 
-## What is the Cloud
+## What are the advantages and disadvantages of a Cloud?
 
-Cloud could be looked as a multiple of services being stored somewhere else and you as a costumer choose a service you want and get access to those services, so you don't have to have it on your computer you can have it online. There are many servies: IaaS, PaaS, SaaS... but what do those abreviations mean? 
+There are a lot of things to keep in mind like, software updates are made gradually, so you always have the support of the latest tools. You avoid major updates that lead to extensive and sudden changes. Moreover,
+all data is automatically saved in at least two dedicated and secure data center environments - located in different geographical locations.
+Apart of that, in some cases it can be more expensive than on premise if the company needs more advanced cloud solutions than standard and it can also be a disadvantage that a cloud service is sometimes difficult to adapt to the company's specific needs. 
 
-### IaaS
 
-Infrastructure as a Service, here is where you grab somethings from the service like the basics in order to build a website, but you have to write the code and structure the final product. So you can use the cloud's storage, the operating systems, but you have to know how to use them and build your application yourself.
+## Conclusion about the price survey?
 
-### PaaS
+As major cloud providers AWS, Azure, Google, and IBM continue to drop the prices of cloud instances, they have added discounting options, added instances, and dropped the billing increments, in some cases, to per second billing. On the other hand, cloud pricing comparison of AWS, Azure, and Google cloud has always been difficult due to the frequency with which prices change.
+It’s true that such a variation may only have short-term value in terms of what you’ll pay today for cloud services, but it reveals crucial cost differences you may not have previously identified. And most importantly, it helps you in cloud cost management for your software development project.
 
-Platform as a Service, its a ready to use platform for your code, so you get the stuff you get in IaaS plus you get other things that come with it like the database, and other tools you need. You however still have the responsability to tweek and change things as time passes by. 
-
-And if we were to compare Saas where you get the software already done and delivered, with PaaS you are given a platform where you can create the finish software.
-
-### SaaS
-
-Software as a service, this is a ready and done deal, you go in and choose what you want, you as a costumer aren't required to write or know about code, you just buy the finish product. A good example would be Office 365. So you pay to use the software, but you don't own it, you are per say renting it.
-
-## What are the pros and cons of using Cloud services?
-
-| Pros             | Cons         |
-|------------------|------------------|
-| Good collaboration between workers | The need of being online/having internet |
-| Easily accessible | Data loss or theft |
-| Low maintanance cost |  data being leaked |
-| Back-up and restore data becoming easy |  |
-
-## Different Cloud providers and the pricing
-
-Here I will be comparing the top 3 cloud providers in the world plus 1 more additional european provider. This is for a simple website and database, that runs every day for a year, I tried to search for the same specs 2 CPUs, 8GB RAM och 10 GB disk space in a Linux server in Europe, I tried to locate them all for north europe to make sure the prices wouldn't be different because of it.
-
-In conclusion  most of them are about the same price even the smaller one (Digital Ocean) so I think now days they are fairly affordable.
-
-![GooglePricePic](/assets/Images/googleCloudPrice.png)
-
-![MicrosoftPricePic](/assets/Images/MicrosoftCloudPriceAppService.png)
-
-![AWSPricePic](/assets/Images/AWSCloudPricing.png)
-
-![DigitalOceanPic](/assets/Images/DigitalOceanPricing.png)
 
 ## References
 
-[Is the cloud really just somone else's computer](https://www.techrepublic.com/article/is-the-cloud-really-just-someone-elses-computer/)
+[All about what is a cloud](https://www.vox.com/2015/4/30/11562024/too-embarrassed-to-ask-what-is-the-cloud-and-how-does-it-work)
 
-[Cloud computing tutorial for beginers](https://www.youtube.com/watch?v=RWgW-CgdIk0&t=378s)
-
-[SaaS vs PaaS vs IaaS](https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/)
