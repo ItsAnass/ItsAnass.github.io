@@ -30,13 +30,18 @@ if the (WORKDIR) Command is not written in the Dockerfile, it will automatically
 
 ![CI](https://github.com/ItsAnass/s.github.io-/blob/main/assets/Images/CI.png?raw=true)
 
-I have explained earlier about the basics of the github pipeline file.
-I will start with the new jobs that I added to the file.
-In line 10 ( docker meta ) I used a GitHub Action to extract metadata from Git reference and GitHub events. This action is particularly useful if used with Docker Build Push action to tag and label Docker images.
-In line 19 ( setup-qemu )  The action can be useful if you want to add emulation support with QEMU to be able to build against more platforms.
-Line 22 ( setup-buildx ) the action will create and boot a builder using by default the docker-container builder driver.
-Line 25 ( login ) Action will take care to log in against a Docker registry.
-Line 32 and 38 (build/push) We are building the image and then we are pushing it to the repository with the help of the dockerfile that we already have.
+* ( on[push]) That means the jobs run every time someone pushes a change to the repository. Its possible also to set up the workflow to only run on certain branches and paths.
+* (jobs keyword) Groups together all the jobs that run in my workflow file.
+* (name keyword) Is optinal and it will appear in the Actions tab of the GitHub repository.
+* (runs-on keyword) Configures the job to run on an Ubuntu Linux runner.
+* (steps keyword) Groups together all the steps that will be done and each item under this section is a separate action .
+* (run keyword) Tells the job to execute a command on the runner.
+* (with: dotnet-version: 5.0.x) To specify which version of dotnet are we using.
+* Line 10 ( docker meta ) I used a GitHub Action to extract metadata from Git reference and GitHub events. This action is particularly useful if used with Docker Build Push action to tag and label Docker images.
+* Line 19 ( setup-qemu )  The action can be useful if you want to add emulation support with QEMU to be able to build against more platforms.
+* Line 22 ( setup-buildx ) the action will create and boot a builder using by default the docker-container builder driver.
+* Line 25 ( login ) Action will take care to log in against a Docker registry.
+* Line 32 and 38 (build/push) We are building the image and then we are pushing it to the repository with the help of the dockerfile that we already have.
 
 
 
