@@ -4,5 +4,5 @@ permalink: "/about/"
 layout: page
 ---
 
-## About Me
+
  :) 
