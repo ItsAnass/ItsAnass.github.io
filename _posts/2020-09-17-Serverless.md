@@ -1,5 +1,5 @@
 ---
-title: "What is Serverless and Function As A Service (FaaS)?."
+title: "What is Serverless and Function As A Service (FaaS)?"
 layout: post
 ---
 
