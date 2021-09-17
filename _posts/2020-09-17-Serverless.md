@@ -20,4 +20,23 @@ Apart of that, function as a service is a relatively newer concept that aims to 
 
 ## How did you get it to run in Azure functions?
 
+![dotnet.Code](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/MiniCalcCode.png?raw=true)
+
+Here how my code looks like where I created a static async Task method where it returns an object result.
+
+## How did you test the application?
+
+![dotnet.Code](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/CodeTest.png?raw=true)
+
+The code was tested by using the query string which sends an HTTP request, where I wrote 2 different values as shown in the above image.
+
+![dotnet.Code](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/TestCodeOutput.png?raw=true)
+
+The above  image here shows the output of my HTTP request and the total number of the 2 values I enterd.
+
+
+
+
+
+
 
