@@ -23,6 +23,7 @@ Now we need a table in our database for data storing to do that I went to Query 
 
 ![ReturnDataFunc](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Database%20cloud/Database_Query%202021-09-21%20183831.png?raw=true)
 
+
 Then I fixed the database connection so I have the right server credentials and they looked like this:
 ![ReturnDataFunc](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Database%20cloud/JsonFile%202021-09-21%20183231.png?raw=true)
 
