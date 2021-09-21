@@ -18,7 +18,7 @@ Here are my functions which creates and return data from to the database using P
 ![ReturnDataFunc](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Database%20cloud/ReturnAllTasksFunction%202021-09-21%20183503.png?raw=true)
 
 
-For the database I creating a new database in Azure then I had to create a table inside the database. For that, I need to add the current machine IP Address to Firewall Settings in our Azure database.
+For the database I created a new database in Azure then I had to create a table inside the database. For that, I need to add the current machine IP Address to Firewall Settings in our Azure database.
 Now we need a table in our database for data storing to do that I went to Query Editor and I wrote this query in order to add the first table:
 
 ![ReturnDataFunc](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Database%20cloud/Database_Query%202021-09-21%20183831.png?raw=true)
