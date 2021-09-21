@@ -27,5 +27,10 @@ Now we need a table in our database for data storing to do that I went to Query 
 Then I fixed the database connection so I have the right server credentials and they looked like this:
 ![ReturnDataFunc](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Database%20cloud/JsonFile%202021-09-21%20183231.png?raw=true)
 
+I used PostMan app to test my requests and that is the result:
+![ReturnData](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Database%20cloud/PostManRetu%202021-09-21%20192238.png?raw=true)
+![PostData](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Database%20cloud/PostManSend%202021-09-21%20192327.png?raw=true)
+
+
 
 
