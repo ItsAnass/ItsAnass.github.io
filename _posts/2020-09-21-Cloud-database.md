@@ -12,12 +12,11 @@ I first created a class for the Models which looks like this:
 
 ![Models](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Database%20cloud/ModelsClass%202021-09-21%20183319.png?raw=true)
 
-
+Here are my functions which creates and return data from to the database using POST and GET requests.
 
 ![CreateFunc](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Database%20cloud/CreateFunction%202021-09-21%20183438.png?raw=true)
 ![ReturnDataFunc](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Database%20cloud/ReturnAllTasksFunction%202021-09-21%20183503.png?raw=true)
 
-Here are my functions which creates and return data from to the database using POST and GET requests.
 
 For the database I creating a new database in Azure then I had to create a table inside the database. For that, I need to add the current machine IP Address to Firewall Settings in our Azure database.
 Now we need a table in our database for data storing to do that I went to Query Editor and I wrote this query in order to add the first table:
