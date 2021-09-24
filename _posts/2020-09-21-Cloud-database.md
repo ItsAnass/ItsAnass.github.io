@@ -1,5 +1,5 @@
 ---
-title: "Cloud database?"
+title: "Cloud database"
 layout: post
 ---
 
