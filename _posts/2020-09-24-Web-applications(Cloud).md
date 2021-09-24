@@ -12,4 +12,13 @@ Since I have already created a database in Azure the goal is to create some func
 I started first by creating a Model class which will represent the information that will be available in the database which looks like this:
 ![Models](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/W/Models%202021-09-24%20103615.png?raw=true)
 
+I added two razor pages where one page is responsible to add a Name to the database and the other page is responsible to return in a list all the names we have in the database.
+This is the page which is responsible to add a Name to our database and it looks like this:
+![AddName](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/W/SaveToDbFunc%202021-09-24%20103834.png?raw=true)
+This is the page which is responsible to return all the names we have in a list as shwon below:
+![AddName](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/W/ReturnFromDb%202021-09-24%20103953.png?raw=true)
+
+
+
+
 
