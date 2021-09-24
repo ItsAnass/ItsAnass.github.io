@@ -17,6 +17,12 @@ This is the page which is responsible to add a Name to our database and it looks
 ![AddName](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/W/SaveToDbFunc%202021-09-24%20103834.png?raw=true)
 This is the page which is responsible to return all the names we have in a list as shwon below:
 ![AddName](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/W/ReturnFromDb%202021-09-24%20103953.png?raw=true)
+After creating app service in Azure I went to deployment center to connect my repo in order to publish my code and that how was my workflow file looks like:
+![WorkFlow](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/W/yml%202021-09-24%20132724.png?raw=true)
+And here we can see that the action has been completed and the app is deployed:
+![ActionWorkFlow](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/W/Build%20and%20deploy%202021-09-24%20133050.png?raw=true)
+
+
 
 
 
