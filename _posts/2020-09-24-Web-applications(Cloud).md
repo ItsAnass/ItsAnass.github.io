@@ -1,4 +1,4 @@
 ---
-title: "Web applications and cloud?"
+title: "Web applications and cloud"
 layout: post
 ---
