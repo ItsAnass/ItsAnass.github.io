@@ -12,7 +12,7 @@ A simple web application which uses an azure database where the database contain
 
 
 
-Describe the code?
+## Describe the code?
 
 I created a ASP.NET Web App using Visual studio to create my simple web app .
 Since I have already created a database in Azure the goal is to create some functions  and  connect the app to Azure database in order to save and get information from - to the database.
