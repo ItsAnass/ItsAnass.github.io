@@ -25,7 +25,7 @@ if the (WORKDIR) Command is not written in the Dockerfile, it will automatically
 * Line 14 (RUN ) Lets you execute commands inside of your Docker image.
 * Line 25 (ENTRYPOINT) Allows you to configure a container that will run as an executable.
 
-## Describe your github pipeline?
+Describe your github pipeline?
 
 ![CI](https://github.com/ItsAnass/s.github.io-/blob/main/assets/Images/CI.png?raw=true)
 
