@@ -9,7 +9,7 @@ First of all I didn't need to install any thing since I have already installed D
 I started by forking the project from the given link and started working on it by adding the required files.
 
 
-How did you get the application to run in a container and describe your docker file?
+## How did you get the application to run in a container and describe your docker file?
 
 I added a folder which contains docker file and by using the windows terminal I located the file path and then I typed (docker build .).
 The windows terminal will go through the docker file and it wil create a container according to the information in the docker file.
@@ -25,7 +25,7 @@ if the (WORKDIR) Command is not written in the Dockerfile, it will automatically
 * Line 14 (RUN ) Lets you execute commands inside of your Docker image.
 * Line 25 (ENTRYPOINT) Allows you to configure a container that will run as an executable.
 
-Describe your github pipeline?
+## Describe your github pipeline?
 
 ![CI](https://github.com/ItsAnass/s.github.io-/blob/main/assets/Images/CI.png?raw=true)
 
