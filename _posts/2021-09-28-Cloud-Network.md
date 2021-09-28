@@ -2,7 +2,8 @@
 title: "Azure Service Bus."
 layout: post
 ---
-Benefits of using Azure Service Bus:
+I am writing this argument to show how important is it to use Azure Service Bus and what are its benefits and how it can help our company in many different ways so here are some
+benefits of using Azure Service Bus:
 
 * Whether an application or service runs in the cloud or on-premises, it often needs to interact with other applications or services. To provide a broad communication channel between different applications, Azure provides a secure infrastructure called as Service Bus.
 * Service Bus allows communication between on-premises solutions to Microsoft Azure solutions, and even Microsoft Azure solutions to other solutions within the cloud.
