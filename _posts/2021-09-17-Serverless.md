@@ -2,7 +2,7 @@
 title: "Serverless and Function As A Service (FaaS)?"
 layout: post
 ---
-Function as a Service and Serverless.
+
 Function as a Service (FaaS) and serverless are two such technologies that approached the forefront due to the popularity of cloud computing. Both these technologies aim to:
 * Provide cost-effective cloud platforms.
 * Eliminate the need for infrastructure management.
