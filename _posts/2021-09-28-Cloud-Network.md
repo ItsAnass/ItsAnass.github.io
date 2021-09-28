@@ -4,8 +4,7 @@ layout: post
 ---
 Benefits of using Azure Service Bus:
 
-* Whether an application or service runs in the cloud or on-oremises, it often needs to interact with other applications or services.
-* To provide a broad communication channel between different applications, Azure provides a secure infrastructure called as Service Bus.
+* Whether an application or service runs in the cloud or on-premises, it often needs to interact with other applications or services. To provide a broad communication channel between different applications, Azure provides a secure infrastructure called as Service Bus.
 * Service Bus allows communication between on-premises solutions to Microsoft Azure solutions, and even Microsoft Azure solutions to other solutions within the cloud.
 * It provides connectivity options for Windows Communication Foundation (WCF), which includes REST endpoints.
 * Service Bus is a multi-tenant cloud service, which means that the service is shared by multiple users.Each user, such as an application developer, creates a namespace, then defines the communication mechanisms she needs within that namespace.
