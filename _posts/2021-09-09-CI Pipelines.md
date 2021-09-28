@@ -7,7 +7,7 @@ Continuous integration is a set of practices that drive development teams to imp
 Moreover, the technical goal of CI is to establish a consistent and automated way to build, package, and test applications. With stability in the integration process in place, teams are more likely to commit code changes more frequently, which leads to better collaboration and software quality.
 
 
-How implemented a CI pipeline in GitHub actions on an existing project? And what steps have you gone through? And descrip your GitHub action workflow YAML file.?
+## How implemented a CI pipeline in GitHub actions on an existing project? And what steps have you gone through? And descrip your GitHub action workflow YAML file.?
 ![dotnet.CIWorkflow](https://github.com/ItsAnass/s.github.io-/blob/main/assets/Images/CIWorkflow.png?raw=true)
 
 The main thing is to specify the path where the execution has to start.
