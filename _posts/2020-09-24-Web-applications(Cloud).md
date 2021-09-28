@@ -3,7 +3,7 @@ title: "Web applications and cloud"
 layout: post
 ---
 
-## Briefly describe your application, what does it do?
+Briefly describe your application, what does it do?
 A simple web application which uses an azure database where the database contains a table which consist  Id and a Name the application is used to store names in the cloud database.
 
 ## Describe the code?
