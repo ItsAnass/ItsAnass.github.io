@@ -1,5 +1,5 @@
 ---
-title: "Azure Service Bus"
+title: "Azure Service Bus."
 layout: post
 ---
 Starting first with a short explanation about what is Azure Private Link and in general it allows you to securely link Azure Paas services to your virtual network (VNet) using private endpoints. Apart of that, with Private Link you can:
