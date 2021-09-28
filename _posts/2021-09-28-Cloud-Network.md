@@ -2,7 +2,16 @@
 title: "Azure Service Bus."
 layout: post
 ---
-Starting first with a short explanation about what is Azure Private Link and in general it allows you to securely link Azure Paas services to your virtual network (VNet) using private endpoints. Apart of that, with Private Link you can:
+Benefits of using Azure Service Bus:
+
+* Whether an application or service runs in the cloud or on-oremises, it often needs to interact with other applications or services.
+* To provide a broad communication channel between different applications, Azure provides a secure infrastructure called as Service Bus.
+* Service Bus allows communication between on-premises solutions to Microsoft Azure solutions, and even Microsoft Azure solutions to other solutions within the cloud.
+* It provides connectivity options for Windows Communication Foundation (WCF), which includes REST endpoints.
+* Service Bus is a multi-tenant cloud service, which means that the service is shared by multiple users.Each user, such as an application developer, creates a namespace, then defines the communication mechanisms she needs within that namespace.
+* Within a namespace, you can use one or more instances of three different communication mechanisms, each of which connects applications in a different way.
+
+Starting first with a short explanation of what Azure Private Link and in general it allows you to securely link Azure Paas services to your virtual network (VNet) using private endpoints. Apart of that, with Private Link you can:
 
 * Connect privately to Azure Monitor without opening any public network access.
 * Ensure your monitoring data is only accessed through authorized VNets Prevent data exfiltration from your VNets by defining specific Azure Monitor resources that are in your scope.
