@@ -1,4 +1,4 @@
 ---
-title: "Files in the cloud"
+title: "Files in the cloud."
 layout: post
 ---
