@@ -46,6 +46,13 @@ Line 29-35 displays a 'Select Files' button that uses a File Upload control to s
 calls the JS function: DisplayFilesToUpload() that lists the file name and size for all files to be uploaded.
 Also the JS function displays the Upload submit button that calls UploadAsync that uploads the files to Azure Blob Storage.
 
+![Methods](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Blobs/Screenshot%202021-10-01%20150838.png?raw=true)
+
+Line 44-59 loops through all files and displays three items:
+* The Image 
+* A delete icon that calls deleteImage JS function
+
+
 
 
 
