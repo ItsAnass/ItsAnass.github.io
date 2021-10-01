@@ -48,7 +48,7 @@ Also the JS function displays the Upload submit button that calls UploadAsync th
 
 ![Methods](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Blobs/Screenshot%202021-10-01%20150838.png?raw=true)
 
-Line 44-59 loops through all files and displays three items:
+Line 44-59 loops through all files and displays two items:
 * The Image 
 * A delete icon that calls deleteImage JS function
 
