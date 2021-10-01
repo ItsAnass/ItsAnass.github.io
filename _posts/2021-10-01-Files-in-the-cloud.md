@@ -64,6 +64,15 @@ Line 44-59 loops through all files and displays two items:
 Two script functions:
 * First one calls async Task<ActionResult> DeleteImage(string name) in the HomeController and Refreshes the page.
 * Second one lists the file name and size for all files to be uploaded by updating the <p id="FilesToUpload"></p> control.
+
+Thats how it looks when I have uploaded one image:
+  
+![Methods](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Blobs/Screenshot%202021-10-01%20154212.png?raw=true)
+  
+  
+  
+
+  
   
 ## Explain with your own words what Microsoft does to secure your blob data?
   
