@@ -34,6 +34,10 @@ I then created a ASP.NET Web App then I added some methods to the my HomeControl
 
 As we can see in the UploadAsync method we have a for loop which loops throgh the selected files and upload them to our blob.
 
+![Methods](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Blobs/Delete%202021-10-01%20144513.png?raw=true)
+
+Here is the delete method which takes a string parameter and this string will be the URI of the image so that it can be deleted from the blob. 
+
 
 
 
