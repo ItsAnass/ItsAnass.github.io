@@ -10,6 +10,6 @@ A simple application where I can upload, view and delete images using Azure Blob
 
 
 
-Create a diagram that shows how the data flows?
 
+## Create a diagram that shows how the data flows?
 ![DataFlow](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Untitled%20Diagram.png?raw=true)
