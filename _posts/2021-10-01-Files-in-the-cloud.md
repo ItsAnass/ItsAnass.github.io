@@ -38,6 +38,13 @@ As we can see in the UploadAsync method we have a for loop which loops throgh th
 
 Here is the delete method which takes a string parameter and this string will be the URI of the image so that it can be deleted from the blob. 
 
+Here how I connected my application to Azure storage :
+
+![Methods](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Blobs/Screenshdddot%202021-10-01%20150838.png?raw=true)
+
+In local, it will read the local storage account like "UseDevelopmentStorage=true".
+When you publish to Azure, it will use your webapp's MSI to get the connectionstring from key vault.
+
 Starting with my Index.cshtml file this is how I managed between calling the methods according to the user selection:
 
 ![Methods](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Blobs/Screenshot%202021-10-01%20150807.png?raw=true)
