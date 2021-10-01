@@ -58,6 +58,10 @@ Two script functions:
 * First one calls async Task<ActionResult> DeleteImage(string name) in the HomeController and Refreshes the page.
 * Second one lists the file name and size for all files to be uploaded by updating the <p id="FilesToUpload"></p> control.
   
+## Explain with your own words what Microsoft does to secure your blob data?
+  
+Microsoft uses encrypted 256-bit AES encryption but we still have the option to either use Microsoft manage encryption keys or we can use our own keys with customer-managed keys stored in Azure Key Vault.
+  
 
 
 
