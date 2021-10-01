@@ -38,6 +38,14 @@ As we can see in the UploadAsync method we have a for loop which loops throgh th
 
 Here is the delete method which takes a string parameter and this string will be the URI of the image so that it can be deleted from the blob. 
 
+Starting with my Index.cshtml file this is how I managed between calling the methods according to the user selection:
+
+![Methods](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Blobs/Screenshot%202021-10-01%20150807.png?raw=true)
+
+Line 29-35 displays a 'Select Files' button that uses a File Upload control to select files to be uploaded and
+calls the JS function: DisplayFilesToUpload() that lists the file name and size for all files to be uploaded.
+Also the JS function displays the Upload submit button that calls UploadAsync that uploads the files to Azure Blob Storage.
+
 
 
 
