@@ -30,6 +30,11 @@ I then created a ASP.NET Web App then I added some methods to the my HomeControl
 * In Line 38 to view the uploaded blob in a browser, we have two options. The first option is to use a Shared Access Signature (SAS) token to delegate access to the resource or we can set permissions to allow public access to blobs in this container.
 * Line 40 gets all Cloud Block Blobs in the blobContainerName and passes them to teh view.
 
+![Methods](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Blobs/Uploadmethod2021-10-01%20144309.png?raw=true)
+As we can see in the UploadAsync method we have a for loop which loops throgh the selected files and upload them to our blob.
+
+
+
 
 
 
