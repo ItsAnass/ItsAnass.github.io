@@ -22,7 +22,7 @@ First of all I created a storage account in Azure then I downloaded Azure storag
 I then connected my storage account explorer to Azure account using access keys which looks like this:
 ![AccessKeys](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Blobs/Connection%20string%202021-10-01%20135316.png?raw=true)
 
-I then created a ASP.NET Web App then I added some methods to the my HomeController class which will be responsible to upload, view and delete the images the methods are :
+I then created a ASP.NET Web App then I added some methods to the my HomeController class which will be responsible to upload, view and delete the images starting with Index method :
 ![Methods](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Blobs/Index%202021-10-01%20142210.png?raw=true)
 
 * From line 31 it retrieves storage account information from the connection string.
