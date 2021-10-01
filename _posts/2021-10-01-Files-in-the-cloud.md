@@ -55,8 +55,8 @@ Line 44-59 loops through all files and displays two items:
 ![Methods](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Blobs/Screenshot%202021-10-01%20150907dd.png?raw=true)
 
 Two script functions:
-* First one calls async Task<ActionResult> DeleteImage(string name) in the HomeController and Refreshes the page
-* Second one lists the file name and size for all files to be uploaded by updating the <p id="FilesToUpload"></p> control
+* First one calls async Task<ActionResult> DeleteImage(string name) in the HomeController and Refreshes the page.
+* Second one lists the file name and size for all files to be uploaded by updating the <p id="FilesToUpload"></p> control.
   
 
 
