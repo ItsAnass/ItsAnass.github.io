@@ -29,6 +29,8 @@ After creating app service in Azure I went to deployment center to connect my re
 And here we can see that the action has been completed and the app is deployed:
 ![ActionWorkFlow](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/W/Build%20and%20deploy%202021-09-24%20133050.png?raw=true)
 
+## Website: https://miniwebbapp.azurewebsites.net
+
 
 
 
