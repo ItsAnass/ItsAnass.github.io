@@ -34,7 +34,7 @@ Calculates the duration of the operations this is important to improve the respo
 
 ![JSFile](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Logging/Screenshot%202021-10-05%20183554.png?raw=true)
 
-It shows a chart which has the amount of requests from the top 10 countries using the website.
+It shows a chart which contains the amount of requests from the top 10 countries using the website.
 
 
 
