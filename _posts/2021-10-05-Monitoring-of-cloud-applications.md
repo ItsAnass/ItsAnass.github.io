@@ -46,6 +46,12 @@ Calculates the duration of the operations this is important to improve the respo
 It shows a chart which contains the amount of requests from the top 10 countries using the website.
 
 
+## Resources
+
+[Implement logging in a .NET](https://docs.microsoft.com/en-us/learn/modules/aspnet-logging/)
+
+[The Kusto Query Language](https://azure-training.com/azure-data-science/the-kusto-query-language/)
+
 
 
 
