@@ -34,3 +34,5 @@ I then added "@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet
 
 
 
+
+
