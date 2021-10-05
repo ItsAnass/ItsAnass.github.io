@@ -5,6 +5,15 @@ layout: post
 Describe the application, what does it do?
 
 I used a previous application which was created in lesson 6 which was an  ASP.NET Web App where we can save names to my Azure Storage(locally).
+
+
+
+
+
+
+
+
+
 I needed to download ("Microsoft.ApplicationInsights.AspNetCore") Nuget package and then I created Application Insight to my app service and I connected them using the InstrumentationKey and I added the configure Log Levels to my appsettings file which looks like this:
 
 ![JSFile](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Logging/Screenshot%202021-10-05%20180243.png?raw=true)
