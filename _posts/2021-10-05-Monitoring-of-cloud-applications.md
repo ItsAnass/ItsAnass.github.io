@@ -25,6 +25,20 @@ I then added "@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet
 
 ![JSFile](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Logging/Screenshot%202021-10-05%20183625.png?raw=true)
 
+## Explain your queries?
+
+![JSFile](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Logging/Screenshot%202021-10-05%20183433.png?raw=true)
+
+Calculates the duration of the operations this is important to improve the responsiveness, throughput, quality, cost, and efficiency of production or service systems.
+
+
+![JSFile](https://github.com/ItsAnass/ItsAnass.github.io/blob/main/assets/Images/Logging/Screenshot%202021-10-05%20183554.png?raw=true)
+
+It shows a chart which has the amount of requests from the top 10 countries using the website.
+
+
+
+
 
 
 
