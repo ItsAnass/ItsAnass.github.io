@@ -22,9 +22,7 @@ In my YAML file I used:
 * (with: dotnet-version: 5.0.x) And ofcourse we have to specify which version of dotnet are we using where I used.
 
 
-## Not all Azure Service App plans offer the ability to scale?
 
-Thats because only 3 tiers support scalability and they are Standard, Premium and Isolated.
 
 
 ## References
